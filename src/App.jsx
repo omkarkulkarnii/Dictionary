@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import SearchBar from "./components/SearchBar";
 import SearchResultList from "./components/SearchResultList";
-import "./App.css"; // Ensure you have appropriate styling
+import "./App.css";
 
 function App() {
   const [result, setResult] = useState([]);
